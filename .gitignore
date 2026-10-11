@@ -1,0 +1,21 @@
+# Dependencies and build output
+node_modules
+dist
+
+# SECRETS: your API keys live here. Never upload these.
+.env
+.env.*
+!.env.example
+
+# Vercel local folder
+.vercel
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
